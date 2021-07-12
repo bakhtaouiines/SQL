@@ -1,0 +1,5 @@
+Exercice 3:
+Créer une base de données frameworks avec l’encodage UTF-8 si elle n’existe pas.
+
+mysql> CREATE DATABASE IF NOT EXISTS frameworks CHARACTER SET utf8;
+Query OK, 1 row affected (0.01 sec)

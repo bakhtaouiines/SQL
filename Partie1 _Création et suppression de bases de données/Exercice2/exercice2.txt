@@ -1,0 +1,5 @@
+Exercice 2:
+Créer une base de données webDevelopment avec l’encodage UTF-8.
+
+mysql> CREATE DATABASE webDevelopment CHARACTER SET utf8;
+Query OK, 1 row affected (0.01 sec)

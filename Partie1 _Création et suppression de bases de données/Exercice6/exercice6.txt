@@ -1,0 +1,5 @@
+Exercice 6:
+Supprimer la base de données frameworks si elle existe.
+
+mysql> DROP DATABASE IF EXISTS frameworks;
+Query OK, 0 rows affected (0.01 sec)

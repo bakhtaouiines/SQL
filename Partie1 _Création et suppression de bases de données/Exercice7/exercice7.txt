@@ -1,0 +1,5 @@
+Exercice 7:
+Supprimer la base de données languages si elle existe.
+
+mysql> DROP DATABASE IF EXISTS languages;
+Query OK, 0 rows affected, 1 warning (0.00 sec)

@@ -1,0 +1,5 @@
+Exercice 5:
+Supprimer la base de données languages.
+
+mysql> DROP DATABASE languages;
+Query OK, 0 rows affected (0.01 sec)

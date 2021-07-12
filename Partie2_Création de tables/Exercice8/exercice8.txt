@@ -1,0 +1,5 @@
+Exercice 8:
+Supprimer la table libraries.
+
+mysql> DROP TABLE libraries;
+Query OK, 0 rows affected (0.01 sec)

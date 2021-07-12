@@ -1,0 +1,26 @@
+Exercice1:
+Dans la base de données webDevelopment, créer la table languages avec les colonnes :
+
+- id (type INT, auto-incrémenté, clé primaire)
+- language (type VARCHAR)
+
+mysql> CREATE TABLE languages(
+    -> id INT NOT NULL AUTO_INCREMENT,
+    -> language VARCHAR (35),
+    -> PRIMARY KEY (id)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+
+/////Explications:
+id : identifiant unique qui est utilisé comme clé primaire et qui n’est pas nulle
+La NOT NULL contrainte impose à une colonne de NE PAS accepter les valeurs NULL.
+
+L'auto-incrémentation permet de générer automatiquement un numéro unique lorsqu'un nouvel enregistrement est inséré dans une table.
+Il s'agit souvent du champ de clé primaire que nous aimerions créer automatiquement à chaque fois qu'un nouvel enregistrement est inséré.
+
+La PRIMARY KEY contrainte identifie de manière unique chaque enregistrement dans une table.
+Les clés primaires doivent contenir des valeurs UNIQUES et ne peuvent pas contenir de valeurs NULL.
+
+language dans une colonne de type VARCHAR avec un maximum de 35 caractères au maximum
+\\\\\\\\\\\\\\\\\\\\

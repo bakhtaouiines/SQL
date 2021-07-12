@@ -1,0 +1,4 @@
+Exercice 1:
+Créer une base de données languages.
+
+mysql> CREATE DATABASE languages
