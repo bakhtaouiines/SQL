@@ -14,15 +14,18 @@ mail	VARCHAR
 
 
 CREATE DATABASE codex;
+USE codex;
 
 CREATE TABLE clients(
-     id INT AUTO_INCREMENT,
-     lastname VARCHAR(50),
-     firstname VARCHAR (50),
-     birthdate DATE,
-     address VARCHAR (100),
-     firstPhoneNumber INT,
-     secondPhoneNumber INT,
-     mail VARCHAR (100),
-    PRIMARY KEY (id)
-     );
+id INT AUTO_INCREMENT,
+lastname VARCHAR(50),
+
+firstname VARCHAR (50),
+birthdate DATE,
+address VARCHAR (100),
+firstPhoneNumber INT,
+
+secondPhoneNumber INT,
+mail VARCHAR (100),
+PRIMARY KEY (id)
+);
