@@ -1,7 +1,6 @@
 TP:
 Créer la base codex. Y créer une table clients qui aura comme colonnes :
 
-
 Colonne	Type	Attributs
 id      INT	    Auto-incrémenté, clé primaire
 lastname	VARCHAR	
@@ -11,6 +10,7 @@ address	VARCHAR
 firstPhoneNumber	INT	
 secondPhoneNumber	INT	
 mail	VARCHAR	
+
 
 
 CREATE DATABASE codex;
