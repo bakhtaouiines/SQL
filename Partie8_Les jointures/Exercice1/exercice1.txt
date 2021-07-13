@@ -1,2 +1,11 @@
 Exercice 1:
 Afficher tous les frameworks associés à leurs langages. Si un langage n'a pas de framework l'afficher aussi.
+
+SELECT *
+FROM `languages`
+LEFT JOIN `frameworks` ON `languages`.id = `frameworks`.`languagesId`;
+
+
+//////
+Dans le langage SQL, la commande LEFT JOIN (aussi appelée LEFT OUTER JOIN) est un type de jointure entre 2 tables. Cela permet de lister tous les résultats de la table de gauche (left = gauche) même s’il n’y a pas de correspondance dans la deuxième tables.
+//////
