@@ -1,5 +1,5 @@
 Exercice 2:
 Dans la table languages, afficher toutes les versions de PHP.
 
-SELECT * FROM `languages`
+SELECT `version` FROM `languages`
 WHERE `language`='PHP';

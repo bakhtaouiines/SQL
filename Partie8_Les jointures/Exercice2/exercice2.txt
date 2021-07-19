@@ -3,7 +3,8 @@ Afficher tous les frameworks associés à leurs langages. Si un langage n'a pas 
 
 SELECT *
 FROM `languages`
-INNER JOIN `frameworks` ON `languages`.id = `frameworks`.`languagesId`;
+INNER JOIN `frameworks` 
+ON `languages`.`id` = `frameworks`.`languagesId`;
 
 
 //////

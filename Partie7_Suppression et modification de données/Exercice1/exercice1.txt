@@ -1,5 +1,9 @@
 Exercice 1:
 Dans la table languages, supprimer toutes les lignes parlant de HTML.
 
+
+SELECT * FROM `languages`
+WHERE `language`='HTML';
+
 DELETE FROM `languages`
 WHERE `language`='HTML';

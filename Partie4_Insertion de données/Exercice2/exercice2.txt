@@ -6,7 +6,6 @@ Symfony, version 3
 Jquery, version 1.6
 Jquery, version 2.10
 
-ALTER TABLE `frameworks`
 INSERT INTO `frameworks`(`framework`,`version`)
 VALUES ('Symfony','2.8'),
 ('Symfony','3'),
